@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PBLRZ</title>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
+    <style>
+        html {
+            background-color: #39424E;
+            font-family: 'Didact Gothic', sans-serif;
+        }
+
+        body {
+            color: #ffffff;
+            margin: 0;
+            letter-spacing: 1.2px;
+        }
+
+        a {
+            color: #ffffff;
+        }
+
+        .posts-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .posts-aside {
+            margin-top: 30px;
+            justify-content: flex-start;
+            width: 500px;
+        }
+
+        .posts-title {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 0;
+            opacity: 0.8;
+            /* text-shadow: 3px 3px rgb(99, 110, 126); */
+            text-shadow: 3px 3px rgb(48, 53, 61);
+            cursor: pointer;
+        }
+
+        .posts-title:hover {
+            color: rgb(217, 226, 176);
+            opacity: 1;
+        }
+
+        .posts-content {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 500px;
+            margin-top: 40px;
+        }
+
+        @media screen and (max-width: 520px) {
+            .posts-aside {
+                width: 85%;
+            }
+
+            .posts-content {
+                width: 85%;
+            }
+        }
+
+        .posts-content h1 {
+            opacity: 1;
+            font-weight: normal;
+            letter-spacing: 1.2px;
+            margin: 15px 0;
+            /* color: rgb(218, 230, 166); */
+            text-shadow: 3px 3px rgb(48, 53, 61);
+        }
+
+        .posts-content .date {
+            opacity: 0.7;
+            font-size: 0.8em;
+            letter-spacing: 1.2px;
+            margin-bottom: 15px;
+        }
+
+        .posts-content p {
+            opacity: 0.9;
+            letter-spacing: 1.5px;
+            line-height: 1.8;
+        }
+
+        @media screen and (max-width: 520px) {
+            .posts-content {
+                font-size: 0.9em;
+            }
+
+            .posts-footer {
+                opacity: 0.9;
+                font-size: 0.9em;
+            }
+        }
+
+        .posts-footer {
+            opacity: 0.9;
+            font-size: 1em;
+        }
+
+        hr {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="posts-wrapper animated fadeIn">
+        <div class="posts-aside">
+            <div class="posts-title">PBLRZ</div>
+        </div>
+
+        <div class="posts-content">
+            <h1>Esto es un post</h1>
+            <div class="date">11/12/2018</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam fugit, ipsum, ullam nisi ipsam beatae
+                ad error labore ex quaerat hic. Quo ab quam dolorum pariatur consequatur corporis blanditiis similique.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit ad modi molestiae itaque quos, impedit voluptatibus, inventore quisquam quibusdam animi possimus fugit ratione aspernatur voluptatum tempora pariatur aperiam debitis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita similique reiciendis exercitationem quidem blanditiis? Accusamus quo molestiae aliquam labore quae! Aperiam maxime quisquam velit, alias quo voluptatem iste laboriosam repudiandae?</p>
+        </div>
+
+        <div class="posts-footer">
+            <p>© 2018 Pablo Ruiz</p>
+        </div>
+    </div>
+</body>
+
+</html>

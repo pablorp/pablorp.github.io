@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PBLRZ</title>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
+    <style>
+        html {
+            background-color: #39424E;
+            font-family: 'Didact Gothic', sans-serif;
+        }
+
+        body {
+            color: #ffffff;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        a {
+            color: #ffffff;
+        }
+
+        .home-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: auto;
+
+        }
+
+        .home-content {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .home-title {
+            font-size: 7em;
+            margin: 0;
+            /* text-shadow: 6px 6px rgb(82, 91, 104); */
+            /* text-shadow: 6px 6px rgb(182, 224, 127); */
+            text-shadow: 6px 6px rgb(206, 224, 127);
+            /* text-shadow: 6px 6px rgb(224, 127, 127); */
+            cursor: pointer;
+        }
+
+        /* .home-title:hover {
+            color: rgb(234, 255, 206);
+        } */
+
+        @media screen and (max-width: 520px) {
+            .home-title {
+                font-size: 4em;
+                text-shadow: 4px 4px rgb(206, 224, 127);
+            }
+        }
+
+        .home-subtitle {
+            opacity: 0.8;
+            font-style: italic;
+        }
+
+        .home-nav a {
+            display: block;
+            margin-top: 0.5em;
+            opacity: 0.8;
+            text-decoration: none;
+            font-size: 2em;
+            text-shadow: 2px 2px rgb(82, 91, 104);
+        }
+
+        @media screen and (max-width: 520px) {
+            .home-nav a {
+                font-size: 1.5em;
+            }
+        }
+
+        .home-nav a:hover {
+            opacity: 1;
+            /* color: rgb(197, 228, 157); */
+            /* color: rgb(212, 226, 150); */
+        }
+
+        .home-footer {
+            opacity: 0.8;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home-wrapper animated fadeIn">
+        <div class="home-content">
+            <h1 class="home-title">PBLRZ</h1>
+            <p class="home-subtitle">"I am an american aquarium drinker"</p>
+
+            <nav class="home-nav">
+                <a href="">Posts</a>
+                <a href="">Fotografía</a>
+                <a href="">Quién</a>
+            </nav>
+        </div>
+        <div class="home-footer">
+            <p>© 2018 Pablo Ruiz</p>
+        </div>
+    </div>
+</body>
+
+</html>

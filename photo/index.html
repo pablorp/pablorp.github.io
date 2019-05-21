@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PBLRZ</title>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="title">PBLRZ</div>
+
+        <div class="grid">
+            <div class="grid-item item1"></div>
+            <div class="grid-item item2" style="height: 400px;"></div>
+            <div class="grid-item item3"></div>
+            <div class="grid-item item4"></div>
+            <div class="grid-item item5"></div>
+            <div class="grid-item item6"></div>
+        </div>
+
+        <div class="posts-footer">
+            <p>© 2018 Pablo Ruiz</p>
+        </div>
+
+    </div>
+
+    <script>
+        $('.grid').masonry({
+            // options
+            itemSelector: '.grid-item'
+        });
+    </script>
+</body>
+
+</html>

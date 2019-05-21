@@ -1,0 +1,34 @@
+html {
+    background-color: #39424E;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+body {
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: 1.2px;
+}
+
+a {
+    color: #ffffff;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid {
+    width: 80%;
+}
+
+.grid-item {
+    width: 400px;
+    height: 300px;
+    background-color: beige;
+    margin: 5px;
+}
